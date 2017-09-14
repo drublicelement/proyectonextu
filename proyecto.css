@@ -6,7 +6,21 @@ width: 900px;
 font-family: 'Dancing Script', cursive !important;
 font-size: 1em;
 
+animation-name: slidein;
+    animation-duration: 1s;
+
 }
+
+@keyframes slidein {
+    0%   {margin-top:150%;}
+    60%  {margin-top:-5%;}
+    100% {margin-top:0%;}
+}
+
+
+
+
+
 header{
 	background-color: #5b7989;
 	width: 100%;
@@ -19,6 +33,8 @@ header{
 }
 a{
 	color: #ffffff;
+	padding: 5px;
+	box-sizing: border-box;
 	
 }
 
@@ -163,4 +179,411 @@ footer{
 }
 .sociales{
 	width: 8%;
+}
+
+
+
+#contenido-paisajes{
+
+	width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #d5c75f;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+
+}
+
+.img-paisaje1{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 1;	
+
+}
+
+
+.img-paisaje2{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 2	
+}
+
+.img-paisaje3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 3	
+}
+
+
+#contenido-paisajes2{
+
+	width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #d5c75f;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+		
+}
+
+.img-paisaje4{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 1
+
+}
+
+.img-paisaje5{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 2	
+}
+
+.img-paisaje6{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 3	
+}
+
+.blur{
+
+	 filter:blur(10px);
+}
+.gris{
+
+	  filter:grayscale(100%);
+}
+
+.sepia{
+
+	 filter:sepia(90%);
+}
+
+
+
+@media screen and (max-width: 899px) and (min-width: 0px){
+
+
+html,body{
+
+margin: auto;
+background-color: #d5c75f;
+width: 100%;
+font-family: 'Dancing Script', cursive !important;
+font-size: 1em;
+
+animation-name: slidein;
+    animation-duration: 1s;
+
+}
+
+@keyframes slidein {
+    0%   {margin-top:150%;}
+    60%  {margin-top:-5%;}
+    100% {margin-top:0%;}
+}
+
+
+
+
+
+header{
+	background-color: #5b7989;
+	width: 100%;
+	height: 100px;
+	color: #ffffff;
+	border-radius: 10px 10px 0px 0px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	font-size: 1.8em !important;
+}
+a{
+	color: #ffffff;
+	padding: 5px;
+	box-sizing: border-box;
+	
+}
+
+header .actual{
+  text-decoration: none;
+}
+.sombra{
+text-shadow: 2px 2px 2px #02010a;
+}
+
+.headiz{
+width: 100%;
+padding-left: 20px;
+box-sizing: border-box;
+text-align: center;
+
+
+}
+.headder{
+width: 100%;
+text-align: center;
+padding-right: 20px;
+box-sizing: border-box;
+
+
+}
+
+#contenido{
+
+	width: 100%;
+	height: auto;
+	background-color:  #82c3a6;
+	padding: 20px;
+	box-sizing: border-box;
+
+
+}
+.imagen-centrada{
+width: : 100%;
+height: auto;
+text-align: center;
+
+}
+
+img{
+	height: auto;
+    max-width: 100%;
+}
+
+#contenido-abajo{
+
+	width: 100%;
+	height: auto;
+	display: inline;
+	
+}
+
+.img-centro{
+
+	box-shadow: 0px 0px 0px 2px #02010a;
+}
+
+.img-secundariaiz{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 1
+
+}
+
+.img-secundariader{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 2	
+}
+
+
+.rotar{
+
+	box-shadow: 0px 0px 0px 2px #02010a;
+}
+
+.rotar:hover{
+
+	transform: rotate(10deg);
+	box-shadow: 0px 0px 0px 2px #82c3a6;
+}
+
+.rotarder{
+	
+	box-shadow: 0px 0px 0px 2px #02010a;
+	
+}
+
+.rotarder:hover{
+	
+	transform: translate(20px, -5px);
+	box-shadow: 0px 0px 0px 2px #82c3a6;
+	
+}
+footer{
+	clear: both;
+	width: 100%;
+	height: 150px;
+	background-color: #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
+	font-size: 1.6em !important;
+	display: inline;
+}
+.foot1{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #C6d5c5;
+}
+.foot2{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #C6d5c5;
+	
+}
+.foot3{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	padding-left: 10%;
+	box-sizing: border-box;
+	background-color: #C6d5c5;
+
+}
+.foot4{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #C6d5c5;
+}
+.sociales{
+	width: 8%;
+}
+
+
+
+#contenido-paisajes{
+
+	width: 100%;
+	height: auto;
+	display: inline;
+	background-color: #d5c75f;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+
+}
+
+.img-paisaje1{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 1;	
+
+}
+
+
+.img-paisaje2{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 2	
+}
+
+.img-paisaje3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 3	
+}
+
+
+#contenido-paisajes2{
+
+	width: 100%;
+	height: auto;
+	display: inline;
+	background-color: #d5c75f;
+	box-sizing: border-box;
+		
+}
+
+.img-paisaje4{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 1
+
+}
+
+.img-paisaje5{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 2	
+}
+
+.img-paisaje6{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #d5c75f;
+	order: 3	
+}
+
+.blur{
+
+	 filter:blur(10px);
+}
+.gris{
+
+	  filter:grayscale(100%);
+}
+
+.sepia{
+
+	 filter:sepia(90%);
+}
+
+
+
+
+
+
+
 }
